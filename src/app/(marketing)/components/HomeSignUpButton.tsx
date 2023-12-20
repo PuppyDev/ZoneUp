@@ -1,7 +1,4 @@
 "use client";
-import { Button } from "@/shared/components/ui/button";
-import { useRouter } from "next/navigation";
-import React from "react";
 
 const HomeSignUpButton = () => {
     const router = useRouter();

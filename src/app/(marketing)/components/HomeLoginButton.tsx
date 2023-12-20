@@ -1,7 +1,5 @@
 "use client";
-import { Button } from "@/shared/components/ui/button";
-import { useRouter } from "next/navigation";
-import React, { FC } from "react";
+import { FC } from "react";
 
 const HomeLoginButton: FC = () => {
     const router = useRouter();

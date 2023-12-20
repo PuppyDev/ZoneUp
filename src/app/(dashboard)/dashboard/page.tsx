@@ -1,7 +1,6 @@
 "use client";
 
 import { OrganizationList, useUser } from "@clerk/nextjs";
-import React from "react";
 
 const DashboardPage = () => {
     const { user } = useUser();
