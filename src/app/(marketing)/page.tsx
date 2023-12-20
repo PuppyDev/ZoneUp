@@ -45,7 +45,9 @@ export default function Home() {
                                 />
                             </div>
                             <div className="flex items-center self-center gap-2">
-                                <div className="self-center justify-center my-auto text-sm font-bold leading-5 text-center text-gray-800">Learn</div>{" "}
+                                <div className="self-center justify-center my-auto text-sm font-bold leading-5 text-center text-gray-800">
+                                    Learn
+                                </div>{" "}
                                 <img
                                     alt=""
                                     loading="lazy"
@@ -53,7 +55,9 @@ export default function Home() {
                                     className="aspect-[1.43] object-contain object-center w-2.5 overflow-hidden self-center shrink-0 max-w-full my-auto"
                                 />
                             </div>
-                            <div className="self-center justify-center my-auto text-sm font-bold leading-5 text-gray-800">Pricing</div>{" "}
+                            <div className="self-center justify-center my-auto text-sm font-bold leading-5 text-gray-800">
+                                Pricing
+                            </div>{" "}
                             <div className="self-center justify-center my-auto text-sm font-bold leading-5 text-gray-800 grow whitespace-nowrap">
                                 Enterprise
                             </div>
@@ -91,10 +95,15 @@ export default function Home() {
                 </div>{" "}
                 <div className="shadow-sm flex w-[421px] max-w-full flex-col justify-center items-stretch mt-8 rounded-xl">
                     <div
-                        style={{ background: "linear-gradient(84deg, #45C4F9 0%, #7D09FF 50.33%, #FF0BE5 100%)" }}
+                        style={{
+                            background:
+                                "linear-gradient(84deg, #45C4F9 0%, #7D09FF 50.33%, #FF0BE5 100%)",
+                        }}
                         className="flex flex-col items-center justify-center h-16 rounded-2xl max-md:max-w-full"
                     >
-                        <div className="text-2xl font-bold text-center text-white">Get Started. It's FREE</div>
+                        <div className="text-2xl font-bold text-center text-white">
+                            Get Started. It's FREE
+                        </div>
                     </div>
                 </div>
                 <div className="flex gap-2.5 mt-4 items-start max-md:justify-center">
@@ -104,7 +113,9 @@ export default function Home() {
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/1873e9b874eef516225e792af576397d81a321cdc6c36f06ea4d0b0b93792c0e?apiKey=ebc0f8a639494adab84738898fc3c240&"
                         className="aspect-[6.07] object-contain object-center w-[85px] overflow-hidden self-stretch shrink-0 max-w-full"
                     />
-                    <div className="justify-center text-sm font-medium leading-5 text-slate-500">based on 10,000+ reviews from</div>
+                    <div className="justify-center text-sm font-medium leading-5 text-slate-500">
+                        based on 10,000+ reviews from
+                    </div>
                     <img
                         alt=""
                         loading="lazy"
@@ -120,7 +131,8 @@ export default function Home() {
                 />
                 <div
                     style={{
-                        background: "linear-gradient(270deg, #FA12E3 1.83%, #7612FA 53.68%, #12D0FA 100%)",
+                        background:
+                            "linear-gradient(270deg, #FA12E3 1.83%, #7612FA 53.68%, #12D0FA 100%)",
                         backgroundClip: "text",
                     }}
                     className="text-transparent mt-40 justify-center text-center text-6xl font-black leading-[74px] bg-clip-text max-md:max-w-full max-md:text-4xl max-md:leading-[55px]"
@@ -143,7 +155,8 @@ export default function Home() {
                                 </div>
                                 <div className="justify-center mt-4 text-base font-extrabold leading-6 text-slate-800 max-md:max-w-full">
                                     <span className="font-extrabold">
-                                        Get your teams working together more closely, even if they’re far
+                                        Get your teams working together more closely, even if
+                                        they’re far
                                         <br />
                                         apart.
                                     </span>
@@ -151,7 +164,8 @@ export default function Home() {
                                         {" "}
                                         Centralize project-related communications in one place,
                                         <br />
-                                        brainstorm ideas with Whiteboards, and draft plans together with
+                                        brainstorm ideas with Whiteboards, and draft plans together
+                                        with
                                         <br />
                                         collaborative Docs.
                                     </span>
@@ -283,10 +297,15 @@ export default function Home() {
                             </div>
                             <div className="shadow-sm flex w-[421px] max-w-full flex-col justify-center items-stretch mt-8 rounded-xl">
                                 <div
-                                    style={{ background: "linear-gradient(84deg, #45C4F9 0%, #7D09FF 50.33%, #FF0BE5 100%)" }}
+                                    style={{
+                                        background:
+                                            "linear-gradient(84deg, #45C4F9 0%, #7D09FF 50.33%, #FF0BE5 100%)",
+                                    }}
                                     className="flex flex-col items-center justify-center h-16 rounded-2xl max-md:max-w-full"
                                 >
-                                    <div className="text-2xl font-bold text-center text-white">Get Started</div>
+                                    <div className="text-2xl font-bold text-center text-white">
+                                        Get Started
+                                    </div>
                                 </div>
                             </div>
                             <div className="self-center justify-center mt-5 text-sm font-medium leading-6 text-center text-slate-500">
@@ -359,7 +378,9 @@ export default function Home() {
                     Teams love how ClickUp helps them get things done efficiently.
                     <br />
                 </span>
-                <span className="">But don’t take our word for it, hear it directly from them.</span>
+                <span className="">
+                    But don’t take our word for it, hear it directly from them.
+                </span>
             </div>{" "}
             <div className="self-center z-[1] w-[1205px] max-w-full mt-20 max-md:mt-10">
                 <div className="flex gap-5 max-md:flex-col max-md:items-stretch max-md:gap-0">
@@ -401,7 +422,9 @@ export default function Home() {
                                     </div>{" "}
                                     <div className="justify-center items-center bg-white bg-opacity-10 self-stretch flex w-full flex-col mt-8 px-16 py-3.5 rounded-2xl max-md:px-5">
                                         <div className="flex items-stretch gap-5">
-                                            <div className="justify-center text-sm font-medium leading-4 text-white">Read story</div>{" "}
+                                            <div className="justify-center text-sm font-medium leading-4 text-white">
+                                                Read story
+                                            </div>{" "}
                                             <img
                                                 alt=""
                                                 loading="lazy"
@@ -446,7 +469,9 @@ export default function Home() {
                                     </div>{" "}
                                     <div className="justify-center items-center bg-white bg-opacity-10 self-stretch flex w-full flex-col mt-9 px-16 py-3.5 rounded-2xl max-md:px-5">
                                         <div className="flex items-stretch gap-5">
-                                            <div className="justify-center text-sm font-medium leading-4 text-white">Read story</div>{" "}
+                                            <div className="justify-center text-sm font-medium leading-4 text-white">
+                                                Read story
+                                            </div>{" "}
                                             <img
                                                 alt=""
                                                 loading="lazy"
@@ -492,7 +517,9 @@ export default function Home() {
                     team is looking for
                 </div>{" "}
                 <div className="self-center justify-center ml-10 text-xl font-extrabold leading-8 text-center text-gray-800 mt-7 max-md:max-w-full">
-                    <span className="font-extrabold">ClickUp’s exceptional flexibility can handle any type of work.</span>
+                    <span className="font-extrabold">
+                        ClickUp’s exceptional flexibility can handle any type of work.
+                    </span>
                     <span className="">
                         {" "}
                         And
@@ -511,7 +538,9 @@ export default function Home() {
                                         srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/d222b628fad957b4506a1d399c929895af1470656bc0781d6c0c838113bdc2c6?apiKey=ebc0f8a639494adab84738898fc3c240&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/d222b628fad957b4506a1d399c929895af1470656bc0781d6c0c838113bdc2c6?apiKey=ebc0f8a639494adab84738898fc3c240&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d222b628fad957b4506a1d399c929895af1470656bc0781d6c0c838113bdc2c6?apiKey=ebc0f8a639494adab84738898fc3c240&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/d222b628fad957b4506a1d399c929895af1470656bc0781d6c0c838113bdc2c6?apiKey=ebc0f8a639494adab84738898fc3c240&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/d222b628fad957b4506a1d399c929895af1470656bc0781d6c0c838113bdc2c6?apiKey=ebc0f8a639494adab84738898fc3c240&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d222b628fad957b4506a1d399c929895af1470656bc0781d6c0c838113bdc2c6?apiKey=ebc0f8a639494adab84738898fc3c240&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/d222b628fad957b4506a1d399c929895af1470656bc0781d6c0c838113bdc2c6?apiKey=ebc0f8a639494adab84738898fc3c240&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/d222b628fad957b4506a1d399c929895af1470656bc0781d6c0c838113bdc2c6?apiKey=ebc0f8a639494adab84738898fc3c240&"
                                         className="absolute inset-0 object-cover object-center w-full h-full"
                                     />{" "}
-                                    <div className="relative justify-center text-xl font-extrabold leading-7 ">AI-powered productivity</div>{" "}
+                                    <div className="relative justify-center text-xl font-extrabold leading-7 ">
+                                        AI-powered productivity
+                                    </div>{" "}
                                     <div className="relative justify-center mt-5 mb-40 text-base font-medium leading-6 max-md:mb-10">
                                         Get work done faster with the only AI-
                                         <br />
@@ -541,7 +570,9 @@ export default function Home() {
                         <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
                             <div className="flex flex-col items-center justify-center w-full mx-auto grow py-9 rounded-xl max-md:mt-8">
                                 <div className="flex flex-col items-center self-stretch px-9 max-md:px-5">
-                                    <div className="self-stretch justify-center text-xl font-extrabold leading-7 ">Customize in a click</div>{" "}
+                                    <div className="self-stretch justify-center text-xl font-extrabold leading-7 ">
+                                        Customize in a click
+                                    </div>{" "}
                                     <div className="justify-center  text-base font-medium leading-6 max-w-[294px] mt-6">
                                         Configuring ClickUp for different types
                                         <br />
@@ -575,7 +606,9 @@ export default function Home() {
                                             src="https://cdn.builder.io/api/v1/image/assets/TEMP/9896a0740f5d2e02da05ccdf3270cfc3cb7ca4e5a1e94986a2b6d34acf20253b?apiKey=ebc0f8a639494adab84738898fc3c240&"
                                             className="aspect-square object-contain object-center w-[31px] overflow-hidden shrink-0 max-w-full"
                                         />{" "}
-                                        <div className="self-center justify-center my-auto text-base font-medium leading-6 text-sky-400">Sprints</div>
+                                        <div className="self-center justify-center my-auto text-base font-medium leading-6 text-sky-400">
+                                            Sprints
+                                        </div>
                                     </div>{" "}
                                     <img
                                         alt=""
@@ -614,7 +647,9 @@ export default function Home() {
                                 <div className="flex gap-5 max-md:flex-col max-md:items-stretch max-md:gap-0">
                                     <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
                                         <div className="flex flex-col items-stretch grow max-md:mt-10">
-                                            <div className="justify-center text-2xl font-extrabold leading-7">Plays well with others</div>{" "}
+                                            <div className="justify-center text-2xl font-extrabold leading-7">
+                                                Plays well with others
+                                            </div>{" "}
                                             <div className="justify-center mt-4 text-base font-medium leading-6">
                                                 Easily integrates with the
                                                 <br />
@@ -630,7 +665,9 @@ export default function Home() {
                                     </div>{" "}
                                     <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
                                         <div className="flex flex-col items-stretch max-md:mt-10">
-                                            <div className="justify-center text-2xl font-extrabold leading-7">Replaces them entirely</div>{" "}
+                                            <div className="justify-center text-2xl font-extrabold leading-7">
+                                                Replaces them entirely
+                                            </div>{" "}
                                             <div className="justify-center mt-4 text-base font-medium leading-6">
                                                 Eliminate app sprawl and
                                                 <br />
@@ -649,7 +686,9 @@ export default function Home() {
                         </div>{" "}
                         <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
                             <div className="flex flex-col items-stretch w-full pt-8 pl-6 pr-px grow rounded-xl max-md:mt-8 max-md:pl-5">
-                                <div className="justify-center text-xl font-extrabold leading-7">Search everything</div>{" "}
+                                <div className="justify-center text-xl font-extrabold leading-7">
+                                    Search everything
+                                </div>{" "}
                                 <div className="justify-center mt-4 text-base font-medium leading-6">
                                     Find any file in ClickUp, a connected
                                     <br />
@@ -669,7 +708,9 @@ export default function Home() {
                     <div className="flex gap-5 max-md:flex-col max-md:items-stretch max-md:gap-0">
                         <div className="flex flex-col items-stretch w-[32%] max-md:w-full max-md:ml-0">
                             <div className="flex flex-col items-stretch w-full pl-6 grow pt-9 rounded-xl max-md:mt-8 max-md:pl-5">
-                                <div className="justify-center text-xl font-extrabold leading-7 text-white">Stay ahead of what’s next</div>{" "}
+                                <div className="justify-center text-xl font-extrabold leading-7 text-white">
+                                    Stay ahead of what’s next
+                                </div>{" "}
                                 <div className="justify-center mt-5 text-base font-medium leading-6 text-white">
                                     Organize your work, reminders, and
                                     <br />
@@ -704,7 +745,10 @@ export default function Home() {
                     />{" "}
                     <div className="relative z-[1] flex mt-0 w-[1300px] max-w-full flex-col">
                         <div
-                            style={{ boxShadow: "0px 16px 78px 0px rgba(41, 45, 52, 0.10)", top: "-30px" }}
+                            style={{
+                                boxShadow: "0px 16px 78px 0px rgba(41, 45, 52, 0.10)",
+                                top: "-30px",
+                            }}
                             className="relative flex items-stretch self-stretch justify-between gap-5 overflow-hidden bg-white rounded-lg top-3 pr-14 pb-11 max-md:max-w-full max-md:flex-wrap max-md:pr-5"
                         >
                             <img
@@ -769,60 +813,156 @@ export default function Home() {
                         </div>{" "}
                         <div className="flex items-start self-stretch justify-between gap-5 pl-3 pr-20 border-t border-b border-solid mt-9 py-11 border-y-white border-y-opacity-30 max-md:max-w-full max-md:flex-wrap max-md:pr-5">
                             <div className="flex grow basis-[0%] flex-col items-stretch self-start">
-                                <div className="justify-center text-xs font-bold leading-5 tracking-normal text-white uppercase">ClickUp</div>{" "}
-                                <div className="justify-center mt-8 text-sm leading-5 text-white">Download</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white mt-9">Careers</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white mt-9">About Us</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white whitespace-nowrap mt-9">Product Roadmap</div>{" "}
-                                <div className="justify-center mt-8 text-sm leading-5 text-white">Press</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white mt-9">Clients</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white mt-9">Brand</div>{" "}
-                                <div className="justify-center mt-8 text-sm leading-5 text-white">Verified</div>{" "}
-                                <div className="justify-center mt-8 text-sm leading-5 text-white whitespace-nowrap">Affiliate & Referrals</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white mt-9">Reviews</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white mt-9">Status</div>
+                                <div className="justify-center text-xs font-bold leading-5 tracking-normal text-white uppercase">
+                                    ClickUp
+                                </div>{" "}
+                                <div className="justify-center mt-8 text-sm leading-5 text-white">
+                                    Download
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white mt-9">
+                                    Careers
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white mt-9">
+                                    About Us
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white whitespace-nowrap mt-9">
+                                    Product Roadmap
+                                </div>{" "}
+                                <div className="justify-center mt-8 text-sm leading-5 text-white">
+                                    Press
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white mt-9">
+                                    Clients
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white mt-9">
+                                    Brand
+                                </div>{" "}
+                                <div className="justify-center mt-8 text-sm leading-5 text-white">
+                                    Verified
+                                </div>{" "}
+                                <div className="justify-center mt-8 text-sm leading-5 text-white whitespace-nowrap">
+                                    Affiliate & Referrals
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white mt-9">
+                                    Reviews
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white mt-9">
+                                    Status
+                                </div>
                             </div>{" "}
                             <div className="flex grow basis-[0%] flex-col items-stretch self-start">
-                                <div className="justify-center text-xs font-bold leading-5 tracking-normal text-white uppercase">Resources</div>{" "}
-                                <div className="justify-center mt-8 text-sm leading-5 text-white">Help Docs</div>{" "}
-                                <div className="justify-center mt-8 text-sm leading-5 text-white whitespace-nowrap">On-Demand Demo</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white mt-9">Webinars</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white mt-9">Contact Us</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white mt-9">Templates</div>{" "}
-                                <div className="justify-center mt-8 text-sm leading-5 text-white">Import</div>{" "}
-                                <div className="justify-center mt-8 text-sm leading-5 text-white">API</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white mt-9">Consultants</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white mt-9">Partners</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white whitespace-nowrap mt-9">ClickUp University</div>{" "}
-                                <div className="justify-center mt-8 text-sm leading-5 text-white">Events</div>
+                                <div className="justify-center text-xs font-bold leading-5 tracking-normal text-white uppercase">
+                                    Resources
+                                </div>{" "}
+                                <div className="justify-center mt-8 text-sm leading-5 text-white">
+                                    Help Docs
+                                </div>{" "}
+                                <div className="justify-center mt-8 text-sm leading-5 text-white whitespace-nowrap">
+                                    On-Demand Demo
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white mt-9">
+                                    Webinars
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white mt-9">
+                                    Contact Us
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white mt-9">
+                                    Templates
+                                </div>{" "}
+                                <div className="justify-center mt-8 text-sm leading-5 text-white">
+                                    Import
+                                </div>{" "}
+                                <div className="justify-center mt-8 text-sm leading-5 text-white">
+                                    API
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white mt-9">
+                                    Consultants
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white mt-9">
+                                    Partners
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white whitespace-nowrap mt-9">
+                                    ClickUp University
+                                </div>{" "}
+                                <div className="justify-center mt-8 text-sm leading-5 text-white">
+                                    Events
+                                </div>
                             </div>{" "}
                             <div className="flex grow basis-[0%] flex-col items-stretch self-start">
-                                <div className="justify-center text-xs font-bold leading-5 tracking-normal text-white uppercase">Features</div>{" "}
-                                <div className="justify-center mt-8 text-sm leading-5 text-white">Gantt Chart</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white mt-9">Dashboards</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white whitespace-nowrap mt-9">Native Time Tracking</div>{" "}
-                                <div className="justify-center mt-8 text-sm leading-5 text-white">Mind Maps</div>{" "}
-                                <div className="justify-center mt-8 text-sm leading-5 text-white">Automations</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white mt-9">Notepad</div>{" "}
-                                <div className="justify-center mt-8 text-sm leading-5 text-white">Integrations</div>{" "}
-                                <div className="justify-center mt-8 text-sm leading-5 text-white">Email</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white mt-9">To-Do List</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white mt-9">Kanban Board</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white mt-9">Sprints</div>
+                                <div className="justify-center text-xs font-bold leading-5 tracking-normal text-white uppercase">
+                                    Features
+                                </div>{" "}
+                                <div className="justify-center mt-8 text-sm leading-5 text-white">
+                                    Gantt Chart
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white mt-9">
+                                    Dashboards
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white whitespace-nowrap mt-9">
+                                    Native Time Tracking
+                                </div>{" "}
+                                <div className="justify-center mt-8 text-sm leading-5 text-white">
+                                    Mind Maps
+                                </div>{" "}
+                                <div className="justify-center mt-8 text-sm leading-5 text-white">
+                                    Automations
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white mt-9">
+                                    Notepad
+                                </div>{" "}
+                                <div className="justify-center mt-8 text-sm leading-5 text-white">
+                                    Integrations
+                                </div>{" "}
+                                <div className="justify-center mt-8 text-sm leading-5 text-white">
+                                    Email
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white mt-9">
+                                    To-Do List
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white mt-9">
+                                    Kanban Board
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white mt-9">
+                                    Sprints
+                                </div>
                             </div>{" "}
                             <div className="flex grow basis-[0%] flex-col items-stretch self-start">
-                                <div className="justify-center text-xs font-bold leading-5 tracking-normal text-white uppercase">Compare</div>{" "}
-                                <div className="justify-center mt-8 text-sm leading-5 text-white whitespace-nowrap">vs Monday</div>{" "}
-                                <div className="justify-center mt-8 text-sm leading-5 text-white">vs Asana</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white mt-9">vs Jira</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white mt-9">vs Trello</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white whitespace-nowrap mt-9">vs Airtable</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white whitespace-nowrap mt-9">vs Notion</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white whitespace-nowrap mt-9">vs Basecamp</div>{" "}
-                                <div className="justify-center mt-8 text-sm leading-5 text-white">vs Wrike</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white whitespace-nowrap mt-9">vs MS Project</div>{" "}
-                                <div className="justify-center mt-8 text-sm leading-5 text-white whitespace-nowrap">vs Todoist</div>{" "}
-                                <div className="justify-center text-sm leading-5 text-white whitespace-nowrap mt-9">vs Smartsheet</div>
+                                <div className="justify-center text-xs font-bold leading-5 tracking-normal text-white uppercase">
+                                    Compare
+                                </div>{" "}
+                                <div className="justify-center mt-8 text-sm leading-5 text-white whitespace-nowrap">
+                                    vs Monday
+                                </div>{" "}
+                                <div className="justify-center mt-8 text-sm leading-5 text-white">
+                                    vs Asana
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white mt-9">
+                                    vs Jira
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white mt-9">
+                                    vs Trello
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white whitespace-nowrap mt-9">
+                                    vs Airtable
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white whitespace-nowrap mt-9">
+                                    vs Notion
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white whitespace-nowrap mt-9">
+                                    vs Basecamp
+                                </div>{" "}
+                                <div className="justify-center mt-8 text-sm leading-5 text-white">
+                                    vs Wrike
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white whitespace-nowrap mt-9">
+                                    vs MS Project
+                                </div>{" "}
+                                <div className="justify-center mt-8 text-sm leading-5 text-white whitespace-nowrap">
+                                    vs Todoist
+                                </div>{" "}
+                                <div className="justify-center text-sm leading-5 text-white whitespace-nowrap mt-9">
+                                    vs Smartsheet
+                                </div>
                             </div>{" "}
                             <div className="self-stretch flex grow basis-[0%] flex-col">
                                 <div className="self-stretch justify-center text-xs font-bold leading-5 tracking-normal text-white uppercase">
@@ -831,12 +971,18 @@ export default function Home() {
                                 <div className="self-stretch justify-center mt-8 text-sm leading-5 text-white whitespace-nowrap">
                                     Software Team Hub
                                 </div>{" "}
-                                <div className="self-stretch justify-center text-sm leading-5 text-white mt-9">Agency Hub</div>{" "}
+                                <div className="self-stretch justify-center text-sm leading-5 text-white mt-9">
+                                    Agency Hub
+                                </div>{" "}
                                 <div className="self-stretch justify-center mt-8 text-sm leading-5 text-white whitespace-nowrap">
                                     PM Software Guide
                                 </div>{" "}
-                                <div className="self-stretch justify-center text-sm leading-5 text-white mt-9">Newsletter</div>{" "}
-                                <div className="self-stretch justify-center text-sm leading-5 text-white mt-9">Podcast</div>{" "}
+                                <div className="self-stretch justify-center text-sm leading-5 text-white mt-9">
+                                    Newsletter
+                                </div>{" "}
+                                <div className="self-stretch justify-center text-sm leading-5 text-white mt-9">
+                                    Podcast
+                                </div>{" "}
                                 <div className="flex flex-col self-stretch h-px mt-32 bg-white bg-opacity-20 shrink-0 max-md:mt-10" />{" "}
                                 <img
                                     alt=""
