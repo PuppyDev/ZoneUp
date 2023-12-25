@@ -1,7 +1,6 @@
 "use client";
-import { FC } from "react";
 
-const HomeLoginButton: FC = () => {
+const HomeLoginButton: React.FC = () => {
     const router = useRouter();
 
     const navigateToLogin = () => {

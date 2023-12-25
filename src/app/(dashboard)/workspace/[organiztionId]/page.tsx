@@ -1,12 +1,5 @@
-import { OrganizationProfile } from "@clerk/nextjs";
-import { FC } from "react";
-
-const page: FC = (props) => {
-    return (
-        <div>
-            <OrganizationProfile />
-        </div>
-    );
+const page: React.FC = (props) => {
+    return <div> </div>;
 };
 
 export default page;

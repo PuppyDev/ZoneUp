@@ -1,7 +1,5 @@
-import { FC } from "react";
-
-const DashboardSidebar: FC = (props) => {
-    return <aside className="pt-20">DashboardSidebar</aside>;
+const DashboardSidebar: React.FC = () => {
+    return <aside className="pt-20 bg-[#30343b]">DashboardSidebar</aside>;
 };
 
 export default DashboardSidebar;

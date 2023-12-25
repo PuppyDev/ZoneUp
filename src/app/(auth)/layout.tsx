@@ -1,6 +1,6 @@
-import { FC, PropsWithChildren } from "react";
+import { PropsWithChildren } from "react";
 
-const AuthLayout: FC<PropsWithChildren> = ({ children }) => {
+const AuthLayout: React.FC<PropsWithChildren> = ({ children }) => {
     return <main className="flex items-center justify-center w-full h-screen">{children}</main>;
 };
 
