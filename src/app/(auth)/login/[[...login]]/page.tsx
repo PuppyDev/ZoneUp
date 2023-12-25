@@ -1,7 +1,6 @@
 import { SignIn } from "@clerk/nextjs";
-import { FC } from "react";
 
-const LoginPage: FC = (props) => {
+const LoginPage: React.FC = (props) => {
     return <SignIn redirectUrl="/dashboard" afterSignInUrl="/dashboard" signUpUrl="/signup" />;
 };
 

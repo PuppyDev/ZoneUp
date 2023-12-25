@@ -4,7 +4,7 @@ import DashboardSidebar from "./components/DashboardSidebar";
 
 const DashboardLayout: FC<PropsWithChildren> = ({ children }) => {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col bg-[#2a2f34]">
             <section className="relative">
                 <DashboardHeader />
             </section>
