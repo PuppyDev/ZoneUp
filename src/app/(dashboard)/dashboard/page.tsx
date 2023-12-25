@@ -10,7 +10,11 @@ const DashboardPage = () => {
             <h1 className="text-3xl">Dashboard Page</h1>
             {user?.imageUrl && <img width={50} src={user?.imageUrl} alt="user" />}
 
-            <OrganizationList hidePersonal afterCreateOrganizationUrl="/workspace/:id" afterSelectOrganizationUrl="/workspace/:id" />
+            <OrganizationList
+                hidePersonal
+                afterCreateOrganizationUrl="/workspace/:id"
+                afterSelectOrganizationUrl="/workspace/:id"
+            />
         </div>
     );
 };

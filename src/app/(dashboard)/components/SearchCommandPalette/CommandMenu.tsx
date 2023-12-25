@@ -1,7 +1,5 @@
 "use client";
 
-import { Calculator, Calendar, CreditCard, Settings, Smile, User } from "lucide-react";
-import { useToggle } from "react-use";
 import {
     CommandDialog,
     CommandEmpty,
@@ -12,6 +10,8 @@ import {
     CommandSeparator,
     CommandShortcut,
 } from "@/shared/components/ui/command";
+import { Calculator, Calendar, CreditCard, Settings, Smile, User } from "lucide-react";
+import { useToggle } from "react-use";
 
 export function CommandMenu() {
     const [showCommand, toggleShowCommand] = useToggle(false);

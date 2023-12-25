@@ -11,7 +11,13 @@ const DashboardHeader: React.FC = () => {
                     <SearchCommandPalette />
                 </div>
 
-                <Button asChild className="text-white" style={{ background: "linear-gradient(-45deg, #ffc800, #ff02f0, #8930df, #49ccf9);" }}>
+                <Button
+                    asChild
+                    className="text-white"
+                    style={{
+                        background: "linear-gradient(-45deg, #ffc800, #ff02f0, #8930df, #49ccf9);",
+                    }}
+                >
                     <Link href="/settings/billing">Upgrade</Link>
                 </Button>
                 <div>123</div>
