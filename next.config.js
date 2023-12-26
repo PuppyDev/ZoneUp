@@ -21,11 +21,21 @@ const nextConfig = {
                     { "next/image": [["default", "Image"]] },
                     { "next/script": [["default", "Script"]] },
                 ],
-                dirs: ["./src/shared/components/ui", "./src/shared/utils"],
+                dirs: ["./src/shared/components/ui", "./src/shared/utils", "./src/shared/hooks"],
             }),
         );
 
         return config;
+    },
+    images: {
+        remotePatterns: [
+            {
+                protocol: "https",
+                hostname: "img.clerk.com",
+                port: "",
+                pathname: "**",
+            },
+        ],
     },
 };
 
