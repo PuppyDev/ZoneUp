@@ -13,6 +13,9 @@
             "recommended": true,
             "suspicious": {
                 "noEmptyInterface": "off"
+            },
+            "a11y": {
+                "noSvgWithoutTitle": "off"
             }
         }
     },
