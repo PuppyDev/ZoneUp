@@ -4,15 +4,22 @@ import { NextResponse } from "next/server";
 const publicRoutes = ["/", "/login", "signup"];
 
 export default authMiddleware({
-    publicRoutes: ["/", "/login", "/signup"],
-    afterAuth({ userId, orgId, isPublicRoute }, req, evt) {
+    publicRoutes,
+    afterAuth({ userId, orgId, isPublicRoute }, req) {
+        // not logged in
         if (!userId && !isPublicRoute) return redirectToSignIn({ returnBackUrl: req.url });
 
-        if (userId && !orgId && publicRoutes.includes(req.nextUrl.pathname))
-            return NextResponse.redirect(new URL("/dashboard", req.url), 308);
+        // logged in
+        if (userId) {
+            if (!orgId) {
+                if (!req.url.includes("/create-workspace")) {
+                    return NextResponse.redirect(new URL("/create-workspace", req.url), 308);
+                }
+            }
 
-        if (userId && orgId && publicRoutes.includes(req.nextUrl.pathname))
-            return NextResponse.redirect(new URL(`/workspace/${orgId}`, req.url), 308);
+            if (orgId && isPublicRoute)
+                return NextResponse.redirect(new URL(`/w/${orgId}/home`, req.url), 308);
+        }
     },
 });
 

@@ -11,6 +11,10 @@ module.exports = {
             },
         },
         extend: {
+            height: {
+                "actions-bar": "var(--global-actions-bar-height, 56px)",
+                "main-container-height": "calc(100% - var(--global-actions-bar-height, 56px))",
+            },
             colors: {
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",
@@ -45,6 +49,9 @@ module.exports = {
                     DEFAULT: "hsl(var(--card))",
                     foreground: "hsl(var(--card-foreground))",
                 },
+            },
+            zIndex: {
+                "top-bar": "10",
             },
             borderRadius: {
                 lg: "var(--radius)",

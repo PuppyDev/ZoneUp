@@ -1,4 +1,5 @@
 "use client";
+import AsideFavorites from "./DashboardAside/AsideFavorites";
 import AsideNavigateMenus from "./DashboardAside/AsideNavigateMenus";
 import AsideSpaces from "./DashboardAside/AsideSpaces";
 import AsideSupports from "./DashboardAside/AsideSupports";
@@ -8,12 +9,17 @@ const DashboardSidebar: React.FC = () => {
     const { isOpenSidebar, toggleOpenSidebar } = usePreferencesState();
 
     return (
-        <Collapsible className="bg-[#30343b]" open={isOpenSidebar} onOpenChange={toggleOpenSidebar}>
+        <Collapsible open={isOpenSidebar} onOpenChange={toggleOpenSidebar}>
             <CollapsibleContent asChild>
-                <aside className="h-full">
+                <aside className="flex flex-col h-full w-[300px] bg-[#30343b] data-[state=open]:animate-collapsible-w-down data-[state=closed]:animate-collapsible-w-up">
                     <AsideWorkspaceSelection />
-                    <AsideNavigateMenus />
-                    <AsideSpaces />
+                    <SelectSeparator />
+                    <ScrollArea className="px-4 grow">
+                        <AsideNavigateMenus />
+                        <SelectSeparator />
+                        <AsideFavorites />
+                        <AsideSpaces />
+                    </ScrollArea>
                     <AsideSupports />
                 </aside>
             </CollapsibleContent>

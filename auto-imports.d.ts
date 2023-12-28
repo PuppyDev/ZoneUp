@@ -68,6 +68,8 @@ declare global {
     const MenubarSubContent: typeof import("./src/shared/components/ui/menubar")["MenubarSubContent"];
     const MenubarSubTrigger: typeof import("./src/shared/components/ui/menubar")["MenubarSubTrigger"];
     const MenubarTrigger: typeof import("./src/shared/components/ui/menubar")["MenubarTrigger"];
+    const NImage: typeof import("next/image")["default"];
+    const NScript: typeof import("next/script")["default"];
     const Popover: typeof import("./src/shared/components/ui/popover")["Popover"];
     const PopoverContent: typeof import("./src/shared/components/ui/popover")["PopoverContent"];
     const PopoverTrigger: typeof import("./src/shared/components/ui/popover")["PopoverTrigger"];
@@ -120,5 +122,6 @@ declare global {
     const useSearchParams: typeof import("next/navigation")["useSearchParams"];
     const useState: typeof import("react")["useState"];
     const useSyncExternalStore: typeof import("react")["useSyncExternalStore"];
+    const useToggle: typeof import("react-use")["useToggle"];
     const useTransition: typeof import("react")["useTransition"];
 }

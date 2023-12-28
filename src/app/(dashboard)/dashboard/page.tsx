@@ -12,8 +12,8 @@ const DashboardPage = () => {
 
             <OrganizationList
                 hidePersonal
-                afterCreateOrganizationUrl="/workspace/:id"
-                afterSelectOrganizationUrl="/workspace/:id"
+                afterCreateOrganizationUrl="/w/:id"
+                afterSelectOrganizationUrl="/w/:id"
             />
         </div>
     );
